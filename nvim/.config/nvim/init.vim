@@ -23,12 +23,6 @@ call plug#end()
 
 " Config Section
 
-if (has("termguicolors"))
- set termguicolors
-endif
-syntax enable
-colorscheme dracula
-
 let g:NERDTreeShowHidden = 1
 let g:NERDTreeMinimalUI = 1
 let g:NERDTreeIgnore = []
