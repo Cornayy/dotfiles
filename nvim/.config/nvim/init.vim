@@ -16,7 +16,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-commentary'
 Plug 'scrooloose/nerdtree'
 Plug 'ryanoasis/vim-devicons'
-Plug 'drewtempelmeyer/palenight.vim'
+Plug 'cseelus/vim-colors-lucid'
 
 let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver']
 call plug#end()
@@ -53,9 +53,6 @@ let g:fzf_action = {
   \ 'ctrl-v': 'vsplit'
   \}
 
-set background=dark
-colorscheme palenight
-
 let $FZF_DEFAULT_COMMAND = 'ag -g ""'
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
@@ -64,6 +61,9 @@ if (has("nvim"))
   "For Neovim 0.1.3 and 0.1.4 < https://github.com/neovim/neovim/pull/2198 >
   let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 endif
+
+syntax on
+colorscheme lucid
 
 "For Neovim > 0.1.5 and Vim > patch 7.4.1799 < https://github.com/vim/vim/commit/61be73bb0f965a895bfb064ea3e55476ac175162 >
 "Based on Vim patch 7.4.1770 (`guicolors` option) < https://github.com/vim/vim/commit/8a633e3427b47286869aa4b96f2bfc1fe65b25cd >
