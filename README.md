@@ -20,6 +20,6 @@ Install the following fonts and run the command to clear the font cache.
 
 [Nerd Font | Devicons](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/3270/Medium/complete/3270-Medium%20Nerd%20Font%20Complete%20Mono.otf)
 
-[Ubuntu Mono | Kitty](https://github.com/powerline/fonts/blob/master/UbuntuMono/Ubuntu%20Mono%20derivative%20Powerline.ttf)
+[Roboto Mono | Kitty](https://github.com/powerline/fonts/blob/master/RobotoMono/Roboto%20Mono%20Medium%20for%20Powerline.ttf)
 
 `fc-cache -f -v`
