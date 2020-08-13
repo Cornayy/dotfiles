@@ -4,13 +4,15 @@ My ubuntu linux configuration.
 ## Usage
 
 ```
-sudo apt install git stow neovim
+sudo apt install git stow neovim zsh
 git clone https://github.com/Cornayy/dotfiles.git
 cd dotfiles
 stow *
 
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 ### Fonts
