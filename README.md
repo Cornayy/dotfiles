@@ -15,6 +15,7 @@ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 cp -v ~/.config/zsh/.zshrc ~/.zshrc
+. ~/.zshrc
 ```
 
 ### Fonts
