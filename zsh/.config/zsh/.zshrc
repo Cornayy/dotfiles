@@ -1,8 +1,5 @@
 #!/bin/zsh
 
-# Aliases
-source ~/.aliases
-
 # Set path
 export PATH=$HOME/Code/scripts:$PATH
 export PATH=$HOME/.composer/vendor/bin:$PATH
