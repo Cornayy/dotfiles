@@ -1,7 +1,6 @@
 #!/bin/zsh
 
 # Set path
-export PATH=$HOME/Code/scripts:$PATH
 export PATH=$HOME/.composer/vendor/bin:$PATH
 export PATH=$HOME/.npm-global/bin:$PATH
 export PATH=$HOME/.pub-cache/bin:$PATH
@@ -11,7 +10,7 @@ export PATH=$HOME/.local/bin:$PATH
 export ZSH="/home/cornayy/.oh-my-zsh"
 
 # Make fzf find hidden files
-export FZF_DEFAULT_COMMAND="rg --files --hidden --ignore-file ~/.ignore --no-ignore-vcs"
+export FZF_DEFAULT_COMMAND="ag --files --hidden --ignore-file ~/.ignore --no-ignore-vcs -g """
 # Default editor
 export EDITOR=nvim
 
