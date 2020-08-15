@@ -27,6 +27,7 @@ set shell=zsh\ -i
 set lazyredraw
 set belloff=all
 set ttyfast
+set nobackup
 set noswapfile
 set noundofile
 set scrolloff=3
