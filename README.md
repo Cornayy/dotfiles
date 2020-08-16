@@ -4,7 +4,7 @@ My ubuntu linux configuration.
 ## Usage
 
 ```
-sudo apt install git stow neovim zsh node npm silversearcher-ag
+sudo apt install git stow neovim zsh nodejs npm silversearcher-ag curl
 git clone https://github.com/Cornayy/dotfiles.git
 cd dotfiles
 stow *
