@@ -18,6 +18,14 @@ cp -v ~/.config/zsh/.zshrc ~/.zshrc
 . ~/.zshrc
 ```
 
+## Nvim Commands
+```
+:so %
+:PlugInstall
+:CocInstall coc-prettier
+:so %
+```
+
 ### Fonts
 Install the following fonts and run the command to clear the font cache.
 
