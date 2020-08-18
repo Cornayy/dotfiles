@@ -157,3 +157,4 @@ colorscheme gruvbox-material
 nnoremap gb :bp<CR>
 nnoremap gn :bn<CR>
 nnoremap cb :Bdelete<CR>
+nnoremap <c-m> :bd!<CR> 
