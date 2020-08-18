@@ -39,6 +39,9 @@ set undoreload=10000
 set autoread
 set updatetime=100
 set nohlsearch
+set backupdir=/tmp//
+set directory=/tmp//
+set undodir=/tmp//
 
 " Color and fonts
 syntax enable
