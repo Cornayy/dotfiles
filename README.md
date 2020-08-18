@@ -1,10 +1,13 @@
 # dotfiles
 My ubuntu linux configuration.
 
+## Disclaimer
+During the installation of this config, you might run into some problems due to dependencies of packages, make sure to install them.
+
 ## Usage
 
 ```
-sudo apt install git stow neovim zsh nodejs npm silversearcher-ag curl
+sudo apt install git stow neovim zsh nodejs npm silversearcher-ag curl bspwm sxhkd
 git clone https://github.com/Cornayy/dotfiles.git
 cd dotfiles
 stow *
@@ -26,11 +29,16 @@ cp -v ~/.config/zsh/.zshrc ~/.zshrc
 :so %
 ```
 
+## Seperate Installations
+[Polybar](https://github.com/polybar/polybar)
+
 ### Fonts
 Install the following fonts and run the command to clear the font cache.
 
 [Nerd Font | Devicons](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/3270/Medium/complete/3270-Medium%20Nerd%20Font%20Complete%20Mono.otf)
 
 [Roboto Mono | Kitty](https://fonts.google.com/specimen/Roboto+Mono)
+
+[Siji | Polybar](https://github.com/stark/siji)
 
 `fc-cache -f -v`
