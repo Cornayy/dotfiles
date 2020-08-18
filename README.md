@@ -1,5 +1,5 @@
 # dotfiles
-My ubuntu linux configuration.
+My Ubuntu linux configuration.
 
 ## Disclaimer
 During the installation of this config, you might run into some problems due to dependencies of packages, make sure to install them.
@@ -29,10 +29,10 @@ cp -v ~/.config/zsh/.zshrc ~/.zshrc
 :so %
 ```
 
-## Seperate Installations
+## Other Installations
 [Polybar](https://github.com/polybar/polybar)
 
-### Fonts
+## Fonts
 Install the following fonts and run the command to clear the font cache.
 
 [Nerd Font | Devicons](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/3270/Medium/complete/3270-Medium%20Nerd%20Font%20Complete%20Mono.otf)
