@@ -114,6 +114,7 @@ super + {Left,Down,Up,Right}
 # terminal emulator
 super + Return
 	kitty
+
 # launch chrome
 super + alt + b
     google-chrome 
@@ -122,7 +123,7 @@ super + alt + b
 alt + ctrl + Return
 	rofi -show run
 
-super + d
+super + alt + d
 	discord
 
 super + alt + s
