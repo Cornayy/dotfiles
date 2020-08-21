@@ -16,6 +16,7 @@ Plug 'tpope/vim-commentary'
 Plug 'scrooloose/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 Plug 'sainnhe/gruvbox-material'
+Plug 'hugolgst/vimsence'
 call plug#end()
 
 " Config Section
@@ -42,7 +43,6 @@ set nohlsearch
 set backupdir=/tmp//
 set directory=/tmp//
 set undodir=/tmp//
-
 " Color and fonts
 syntax enable
 hi NonText ctermfg=7
