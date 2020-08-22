@@ -152,7 +152,7 @@ set background=dark
 " Set contrast.
 " This configuration option should be placed before `colorscheme gruvbox-material`.
 " Available values: 'hard', 'medium'(default), 'soft'
-let g:gruvbox_material_background = 'medium'
+let g:gruvbox_material_background = 'hard'
 
 colorscheme gruvbox-material
 
@@ -160,4 +160,3 @@ colorscheme gruvbox-material
 nnoremap gb :bp<CR>
 nnoremap gn :bn<CR>
 nnoremap cb :Bdelete<CR>
-nnoremap <c-m> :bd!<CR> 
