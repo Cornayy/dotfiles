@@ -31,6 +31,7 @@ cp -v ~/.config/zsh/.zshrc ~/.zshrc
 
 ## Other Installations
 [Polybar](https://github.com/polybar/polybar)
+
 [Polybar Spotify](https://github.com/mihirlad55/polybar-spotify-module)
 
 ## Fonts
