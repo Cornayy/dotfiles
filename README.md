@@ -7,7 +7,7 @@ During the installation of this config, you might run into some problems due to 
 ## Usage
 
 ```
-sudo apt install git stow neovim zsh nodejs npm silversearcher-ag curl bspwm sxhkd
+sudo apt install git stow neovim zsh nodejs npm silversearcher-ag curl bspwm sxhkd maim feh
 git clone https://github.com/Cornayy/dotfiles.git
 cd dotfiles
 stow *
