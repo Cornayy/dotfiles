@@ -26,6 +26,7 @@ cp -v ~/.config/zsh/.zshrc ~/.zshrc
 :so %
 :PlugInstall
 :CocInstall coc-prettier
+:CocInstall coc-tsserver
 :so %
 ```
 
