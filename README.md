@@ -7,7 +7,7 @@ During the installation of this config, you might run into some problems due to 
 ## Usage
 
 ```
-sudo apt install git stow neovim zsh nodejs npm silversearcher-ag curl bspwm sxhkd
+sudo apt install git stow neovim zsh nodejs npm silversearcher-ag curl bspwm sxhkd maim feh fonts-comfortaa fonts-font-awesome
 git clone https://github.com/Cornayy/dotfiles.git
 cd dotfiles
 stow *
@@ -31,6 +31,8 @@ cp -v ~/.config/zsh/.zshrc ~/.zshrc
 
 ## Other Installations
 [Polybar](https://github.com/polybar/polybar)
+
+[Polybar Spotify](https://github.com/mihirlad55/polybar-spotify-module)
 
 ## Fonts
 Install the following fonts and run the command to clear the font cache.
