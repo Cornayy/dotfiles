@@ -35,6 +35,8 @@ cp -v ~/.config/zsh/.zshrc ~/.zshrc
 
 [Polybar Spotify](https://github.com/mihirlad55/polybar-spotify-module)
 
+[Picom](https://github.com/yshui/picom)
+
 ## Fonts
 Install the following fonts and run the command to clear the font cache.
 
