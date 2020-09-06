@@ -37,6 +37,8 @@ cp -v ~/.config/zsh/.zshrc ~/.zshrc
 
 [Picom](https://github.com/yshui/picom)
 
+`xset r rate 250 45`
+
 ## Fonts
 Install the following fonts and run the command to clear the font cache.
 
