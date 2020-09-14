@@ -1,9 +1,7 @@
 #!/bin/zsh
 
 # Set path
-export PATH=$HOME/.composer/vendor/bin:$PATH
 export PATH=$HOME/.npm-global/bin:$PATH
-export PATH=$HOME/.pub-cache/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 
 # Path oh-my-zsh
